@@ -1,0 +1,48 @@
+<div class="sdbr">
+  <div class="sdbr_icn">
+    <div class="sdbr_icn-left">
+      <img
+        src="https://pixinvent.com/demo/vuexy-vuejs-admin-dashboard-template/demo-1/img/logo.36f34a9f.svg"
+        alt="Logo"
+      />
+      <span>Vuexy</span>
+    </div>
+    <div class="sdbr_icn-right">
+      <mat-icon>highlight_off</mat-icon>
+    </div>
+  </div>
+  <nav class="nav_menu">
+    <ul>
+      <a href="#" *ngFor="let data of sideBarData.data_one">
+        <li class="nav_menu_itm">
+          <mat-icon class="material-icons-outlined" aria-hidden="false">{{
+            data.icon
+          }}</mat-icon>
+          <span>{{ data.title }}</span>
+        </li>
+      </a>
+      <li class="nav_header">
+        <span>APPS & PAGES</span>
+      </li>
+      <a href="#" *ngFor="let data of sideBarData.data_two">
+        <li class="nav_menu_itm">
+          <mat-icon class="material-icons-outlined" aria-hidden="false">{{
+            data.icon
+          }}</mat-icon>
+          <span>{{ data.title }}</span>
+        </li>
+      </a>
+      <li class="nav_header">
+        <span>USER INTERFACE</span>
+      </li>
+      <a href="#" *ngFor="let data of sideBarData.data_three">
+        <li class="nav_menu_itm">
+          <mat-icon class="material-icons-outlined" aria-hidden="false">{{
+            data.icon
+          }}</mat-icon>
+          <span>{{ data.title }}</span>
+        </li>
+      </a>
+    </ul>
+  </nav>
+</div>
