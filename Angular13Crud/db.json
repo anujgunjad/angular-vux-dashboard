@@ -1,0 +1,32 @@
+{
+  "productList": [
+    {
+      "productName": "Apple",
+      "category": 3,
+      "freshness": "Brand New",
+      "price": 78,
+      "date": "2022-02-22T18:30:00.000Z",
+      "comment": "That good!!!",
+      "id": 1
+    },
+    {
+      "productName": "assssad",
+      "category": 3,
+      "freshness": "Second Hand",
+      "price": 234,
+      "date": "2022-02-07T18:30:00.000Z",
+      "comment": "sdfdscx",
+      "id": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
