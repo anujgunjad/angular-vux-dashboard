@@ -78,7 +78,7 @@ export class MainLayoutComponent implements OnInit {
       {
         backgroundColor: ['#EEF2F8', '#7367f0', '#EEF2F8', '#7367f0'],
         hoverBackgroundColor: '#7367f0',
-        barThickness: 13,
+        barThickness: 20,
         borderRadius: 9,
         data: [50, 116, 141, 96, 115, 96, 115],
       },

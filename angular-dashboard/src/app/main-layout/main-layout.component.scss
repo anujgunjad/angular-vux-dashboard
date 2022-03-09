@@ -6,6 +6,10 @@
   margin: 1.5rem !important;
 }
 
+.f-reverse {
+  flex-wrap: wrap-reverse !important;
+}
+
 .row {
   margin-right: -1rem;
   margin-left: -1rem;
@@ -72,7 +76,12 @@
     max-width: 50%;
   }
 }
-
+@media only screen and (max-width: 576px) {
+  .col-sm-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
 .col-12 {
   padding-right: 1rem;
   padding-left: 1rem;
