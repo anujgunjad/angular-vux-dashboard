@@ -8,6 +8,8 @@ export class ApiService {
   constructor(private http: HttpClient) {}
 
   getSidebarMenu() {
-    return this.http.get<any>('http://localhost:3000/sideBarMenu');
+    return this.http.get<any>(
+      'https://api.jsonbin.io/b/623022e07caf5d6783694c1a/1'
+    );
   }
 }
